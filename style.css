@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background-color: bisque;
+}
+#header{
+  color: #0000ff;
+  
+}
+p{
+  line-height: 25px;
+  color: white;
+  background-color:cornflowerblue;
+}
+label:active{
+  color: darkgreen;
+}
+button{
+  color: azure;
+  background-color: purple;
+  border: none;
+}
+h1::first-letter{
+  color: red;
+}
+button:hover{
+  color: blue;
+  background-color: yellow;
+}
+p:nth-of-type(3){
+  color: yellow;
+}
